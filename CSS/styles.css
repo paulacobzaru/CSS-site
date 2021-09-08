@@ -3,17 +3,28 @@ body {
   text-align: center;
   /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-family: 'Merriweather', serif;
+  font-size: 2em;
 }
 
 h1 {
   margin-top: 0;
   font-family: 'Sacramento', cursive;
+  /*font-size: 100% 16px;*/
+  font-size: 5.625rem;
+  margin: 50PX auto 0 auto;
+  color: #66BFBF;
+  /*line-height: 2;*/
 }
-h2{
+
+h2 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
 }
-h3{
+
+h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
 
 .top-container {
@@ -26,12 +37,12 @@ h3{
   padding: 20px;*/
 }
 
-.middle-container {
+/*.middle-container {
 
 }
-
+*/
 .bottom-container {
-
+  font-size: 12px;
 }
 
 .pro {
@@ -83,21 +94,64 @@ h3{
   right: 100px;
   top: 50px;
 }
-.paula-image{
+
+.paula-image {
   margin: auto;
   width: 200px;
   height: 200px;
-  border-radius:50%;
+  border-radius: 50%;
 }
-.first-skill{
-  margin: auto;
-  width: 200px;
-  height: 200px;
-  border-radius:50%;
+
+.first-skill {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
 }
-.second-skill{
-  margin: auto;
-  width: 200px;
-  height: 200px;
-  border-radius:50%;
+
+.second-skill {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 30px;
+  float: right;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.paragraph {
+  font-weight:bold;
+  font-size: 26px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+p {
+  font-size: 18px;
+}
+.contact1{
+  font-size: 18px;
+}
+.contact2{
+  font-size: 18px;
+}
+.contact3{
+  font-size: 14px;
+}
+.btn{
+  font-size: 18px;
+}
+.year{
+  font-size:12px;
+}
+.contact-me{
+  font-weight: bolder;
 }
